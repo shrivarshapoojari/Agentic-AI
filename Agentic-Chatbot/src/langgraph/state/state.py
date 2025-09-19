@@ -7,5 +7,5 @@ class State(TypedDict):
     """
     Represents the structure of state used in the graph.
     """
-    message:Annotated[list,add_messages]
+    messages:Annotated[list,add_messages]
     

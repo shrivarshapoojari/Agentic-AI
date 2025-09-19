@@ -20,7 +20,7 @@ class GraphBuilder:
         """
         Sets up the graph based on the use case and returns the compiled graph.
         """
-        if usecase == "basic_chatbot":
+        if usecase == "Basic Chatbot":
             self.basic_chatbot()
             return self.graph_builder.compile()
         else:
