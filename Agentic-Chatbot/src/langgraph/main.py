@@ -1,6 +1,6 @@
 import streamlit as st
 from src.langgraph.ui.streamlitui.loadui import LoadStreamlitUI
-from src.langgraph.LLMS.groqllm import GroqLLM
+from src.langgraph.llm.groqllm import GroqLLM
 from src.langgraph.graph.graph_builder import GraphBuilder
 from src.langgraph.ui.streamlitui.display_result import DisplayResultStreamlit
 
